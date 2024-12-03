@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #3c2a21;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .header .logo img {
+    height: 50px;
+  }
+  
+  .header nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .header nav ul li a:hover {
+    background-color: #f4a261;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: #f4a261;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #3c2a21;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #f4a261;
+  }
+  
+  /* About Section Styles */
+  .about {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    color: #3c2a21;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Features Section Styles */
+  .features {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #3c2a21;
+    color: white;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  /* Contact Section Styles */
+  .contact {
+    background-color: #f4f4f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    background-color: #3c2a21;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #f4a261;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #3c2a21;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
